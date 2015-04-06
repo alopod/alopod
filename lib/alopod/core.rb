@@ -1,0 +1,16 @@
+require 'yaml'
+require 'json'
+require 'pathname'
+require 'hashie/mash'
+
+require 'active_support/inflector'
+require 'active_support/core_ext/hash/indifferent_access'
+require 'faraday'
+
+require 'alopod/version'
+require 'alopod/core/logger'
+require 'alopod/core/provider'
+require 'alopod/core/request'
+require 'alopod/core/request_builder'
+require 'alopod/core/response'
+require 'alopod/core/service'
